@@ -1,0 +1,90 @@
+﻿.res-settings .dataTables_scrollHead,
+.res-settings .dataTables_scrollHeadInner,
+.res-settings .dataTables_scrollHeadInner .table,
+#custom-resources-modal .dataTables_wrapper .dataTables_scrollHead,
+#custom-resources-modal .dataTables_wrapper .dataTables_scrollHeadInner,
+#custom-resources-modal .dataTables_wrapper .dataTables_scrollHeadInner .table {
+    width: 100% !important;
+}
+
+.res-settings-details {
+    &__building-blocks {
+        .xbb-file {
+            display: inline-block
+        }
+    }
+
+    &__attachment {
+        .delete-attachment {
+            display: inline-block;
+            margin-left: 20px;
+        }
+    }
+}
+
+#building-blocks-modal {
+    #clear-building-blocks-dropdown, #building-blocks-search, #clear-selection {
+        position: relative;
+        top: 25px;
+    }
+}
+
+#custom-resources-modal {
+    #custom-resources-modal-table_wrapper {
+        .view-filter {
+            display: none;
+        }
+    }
+
+    .add-relation {
+        display: inline-block;
+        margin-left: 10px;
+
+        .material-icons {
+            position: relative;
+            top: 5px;
+        }
+    }
+}
+
+#add-custom-resources-modal,
+#add-building-blocks-modal {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.file-attachment-wrapper {
+    display: inline-block;
+    padding: 40px 20px 20px;
+    border: dashed 2px gray;
+    background-color: #f6f6f6;
+}
+
+@media (min-width: 768px) {
+    #res-deployment-add-blocks-modal,
+    #add-res-custom-resource-relation-modal {
+        .modal-dialog {
+            width: 1400px;
+        }
+    }
+
+    #add-custom-resources-modal {
+        .modal-dialog {
+            width: 1000px;
+        }
+    }
+
+    #add-res-package-relations-modal {
+        .modal-dialog {
+            width: 900px;
+        }
+    }
+}
+
+#add-building-blocks-modal {
+    .modal-body {
+        overflow-y: visible;
+        max-height: none;
+    }
+}  
+
+

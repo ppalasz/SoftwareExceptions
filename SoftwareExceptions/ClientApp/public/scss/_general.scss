@@ -1,0 +1,274 @@
+﻿body {
+    background-color: #e9e9e9;
+    @include transition(all .5s);
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+}
+
+textarea {
+	resize: vertical;
+}
+
+textarea[readonly] {
+	cursor:not-allowed;
+	background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+button,
+input,
+select,
+a {
+    outline: none !important;
+}
+
+.no-animate {
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+
+section {
+    &.content {
+        margin: 85px 15px 0 100px;
+        @include transition(.5s);
+    }
+}
+
+.row-bordered {
+    border-bottom: 1px solid #ccc;
+}
+.col-bordered {
+    border-right: 1px solid #ccc;
+}
+
+.toast-top-center {
+    top: 100px;
+    margin-left: -150px;
+}
+
+@media all and (max-width: 240px) {
+    .toast-top-center {
+        margin-left: -54px;
+    }
+}
+
+@media all and (min-width: 241px) and (max-width: 320px) {
+    .toast-top-center {
+        margin-left: -64px;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+    .toast-top-center {
+        margin-left: -96px;
+    }
+}
+
+.modal {
+    overflow-y: auto !important;
+}
+
+.w-60px {
+    width: 60px;
+}
+
+.danger-color {
+    color: red!important;
+}
+
+.warning-color {
+    color: orange !important;
+}
+
+.help {
+    cursor: help;
+}
+
+.pointer{
+    cursor: pointer
+}
+
+.left-border-transparent {
+    border-left: solid 3px transparent;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.row-menu__item {
+    a {
+        color: #333;
+
+        &:hover {
+            text-decoration: none;
+            color: #333;
+        }
+    }
+}
+
+.pd-l-50 {
+    padding-left: 50px;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+.bg-red {
+    background-color: red;
+}
+
+.form-group .form-line {
+    display: inline-block;
+}
+
+.form-group {
+    .form-line {
+        input {
+            border: none;
+        }
+    }
+}
+
+table {
+    border-collapse: inherit;
+
+    tbody {
+        tr.row-danger {
+            td:first-of-type {
+                border-left: solid 3px red;
+                cursor: help;
+            }
+
+            td {
+                color: red;
+                border-top: solid 1px red !important;
+                border-bottom: solid 1px red !important;
+            }
+
+            td:last-of-type {
+                border-right: solid 1px red;
+            }
+
+            & + tr.danger {
+                td {
+                    border-top-color: transparent !important;
+                }
+            }
+        }
+
+        tr.row-warning {
+            td:first-of-type {
+                border-left: solid 3px orange;
+                cursor: help;
+            }
+
+            td {
+                color: orange;
+                border-top: solid 1px orange !important;
+                border-bottom: solid 1px orange !important;
+            }
+
+            td:last-of-type {
+                border-right: solid 1px orange;
+            }
+
+            & + tr.warning {
+                td {
+                    border-top-color: transparent !important;
+                }
+            }
+        }
+    }
+}
+
+#table-calendar-deployments_wrapper {
+    .col-sm-7 {
+        width: 100%;
+    }
+}
+
+.switch {
+    label {
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+}
+
+margin-left-inherit {
+    margin-left: inherit;
+    width: 100%;
+}
+
+.swal-button-container:first-child {
+    float: right;
+}
+.swal-button-container:nth-child(2) .swal-button {
+    background-color: dodgerblue;
+}
+
+
+#package-deployment-add-targets-modal {
+    z-index: 1070;
+}
+
+
+#package-deployment-add-packages-modal {
+    z-index: 1070;
+}
+
+#package-deployment-add-targets-parent-modal {
+    z-index: 1070;
+}
+
+.tooltip {   
+    position: fixed!important;
+}
+
+.user-info-color {
+    color: #00b0e4;
+}
+
+.large-tooltip .tooltip-inner {
+    max-width: 440px !important;
+    width: 440px !important;   
+}
+
+.tooltip-inner {
+    white-space: pre-wrap !important;
+}
+
+.border-left-right {
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+}
+
+.button-width-calendar {
+	width: 100px;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}

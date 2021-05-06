@@ -1,0 +1,22 @@
+﻿.package-deployment {
+    .dataTables_scrollHead,
+    .dataTables_scrollHeadInner,
+    .dataTables_scrollHeadInner .table {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #package-deployment-add-packages-modal {
+        .modal-dialog {
+            width: 800px;
+        }
+    }
+
+    #package-deployment-add-targets-modal {
+        .modal-dialog {
+            width: 500px;
+        }
+    }
+
+}

@@ -1,0 +1,77 @@
+{
+  "name": "softwareexceptions",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.13.14",
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@popperjs/core": "^2.9.1",
+    "@types/react-redux": "^7.1.16",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.4.1",
+    "datatables.net": "^1.10.24",
+    "dotenv": "^8.2.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "joi": "^17.4.0",
+    "jquery": "^3.6.0",
+    "merge": "^1.2.1",
+    "oidc-client": "^1.9.0",
+    "popper.js": "^1.16.1",
+    "react": "^16.0.0",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-alert-template-mui": "^1.0.7",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-modal": "^4.2.0",
+    "react-confirm": "^0.1.23",
+    "react-confirm-bootstrap": "^5.3.1",
+    "react-datepicker": "^3.7.0",
+    "react-dom": "^16.0.0",
+    "react-font-awesome-5": "^0.2.2",
+    "react-fontawesome": "^1.7.1",
+    "react-redux": "^7.2.3",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.0",
+    "react-table": "^7.6.3",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "ajv": "^6.9.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^7.23.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "nan": "^2.14.1",
+    "typescript": "^3.7.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

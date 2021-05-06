@@ -1,0 +1,24 @@
+﻿@media (min-width: 768px) {
+    #res-deployment-import-custom-resources-modal {
+        .modal-dialog {
+            width: 1000px;
+        }
+    }
+}
+
+.res-deployment {
+    .dataTables_scrollHead,
+    .dataTables_scrollHeadInner,
+    .dataTables_scrollHeadInner .table {
+        width: 100% !important;
+    }
+}
+
+
+
+#import-building-blocks-modal {
+    .modal-body {
+        overflow-y: visible !important;
+        max-height: none;
+    }
+}

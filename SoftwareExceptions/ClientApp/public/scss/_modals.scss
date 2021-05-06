@@ -1,0 +1,76 @@
+﻿.modal {
+    .modal-header {
+        border: none;
+        padding: 25px 25px 5px 25px;
+
+        & > h4 {
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+
+        .modal-title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+
+    .modal-content {
+        width: 100%;
+        @include border-radius(0);
+        box-shadow: 0 5px 20px rgba(0,0,0,.31) !important;
+        border: none;
+
+        h4.header {
+            margin: 30px 0;
+        }
+
+        .modal-body {
+            color: #777;
+            padding: 15px 25px;
+        }
+    }
+
+    .modal-footer {
+        border: none;
+    }
+}
+
+[id^=add-].modal {
+    z-index: 1051;
+}
+
+@each $key, $val in $colors {
+    .modal-col-#{$key} {
+        background-color: $val;
+
+        .modal-body,
+        .modal-title {
+            color: #fff !important;
+        }
+
+        .modal-footer {
+            background-color: rgba(0,0,0,0.12);
+
+            .btn-link {
+                color: #fff !important;
+
+                &:hover,
+                &:active,
+                &:focus {
+                    background-color: rgba(0,0,0,0.12);
+                }
+            }
+        }
+    }
+}
+
+.modal-md {
+    width: 60%;
+    margin-top: 100px;
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 95%;
+    }
+}

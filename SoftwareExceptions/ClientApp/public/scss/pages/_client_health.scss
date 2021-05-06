@@ -1,0 +1,290 @@
+﻿.clients-health {
+
+   
+
+    .tooltip-inner {
+        max-width: 350px;
+        width: 200px;
+    }
+
+    #btnExportToExcel {
+        margin-right: 250px;
+        margin-bottom: -120px;
+        z-index: 2;
+    }
+
+    h2 {
+        display: inline;
+    }
+
+    .search_field {
+        width: 150px;
+    }
+
+    .chosen-container {
+        margin-bottom: 10px !important;
+    }
+
+    select:invalid {
+        color: gray;
+    }
+
+    .bootstrap-datetimepicker-widget table td, .bootstrap-datetimepicker-widget table td:hover {
+        border: 1px solid orange;
+        color: black;
+    }
+
+    .bootstrap-datetimepicker-widget table td.disabled, .bootstrap-datetimepicker-widget table td.disabled:hover {
+        border: 1px solid white;
+        color: gray;
+        cursor: not-allowed;
+    }
+
+    .compare-panel .select-check-date {
+        float: right;
+    }
+
+    .select-check-date input {
+        font-size: 16px;
+        font-weight: bold;
+        border: 1px solid #cccccc !important;
+        width: 150px !important;
+        margin-right: 5px !important;
+        padding-left: 5px !important;
+    }
+
+    .compare-panel .compare-panel-header {
+        display: block;
+        float: left;
+    }
+
+    .compare-panel .input-group {
+        margin-bottom: 0px !important;
+    }
+
+
+    .compare-panel .toggle-options-button, .compare-panel .hide-options-button {
+        border: 1px solid #CCCCCC;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .compare-panel .hide-options-button {
+        opacity: 0.1;
+    }
+
+    .compare-panel .hide-options-button:hover {
+        opacity: 1;
+    }
+
+    .compare-panel .select-check-date {
+        width: 50%;
+        font-weight: normal;
+        display: inline;
+    }
+
+    .compare-panel-header {
+        font-size: 16px;
+    }
+
+    .compare-panel .workplace-details__table th, .workplace-details__table td {
+        padding-bottom: 1px;
+    }
+
+    .compare-panel .field_compare TH, .compare-panel .field_compare TD {
+        height: 30px;
+        border-bottom: #eeeeee 1px solid;
+        padding: 3px;
+    }
+
+    .compare-panel #columns_panel .odd, .compare-panel #status_1 .odd, .compare-panel #status_2 .odd {
+        background-color: #f0f0f0;
+    }
+
+    .compare-panel .highlighted {
+        background-color: orange !important;
+    }
+
+    .compare-panel .highlighted TD, .compare-panel .highlighted TH {
+        color: black !important;
+    }
+
+    #status_1 .workplace-details__header, #status_2 .workplace-details__header {
+        margin-bottom: 12px !important;
+    }
+
+
+
+    .btn-link {
+        font-size: 13px;
+        font-weight: bold;
+        color: #0000ff !important;
+    }
+
+    .btn-link:hover {
+        cursor: pointer;
+        text-decoration: underline !important;
+    }
+
+    .btn-link > i {
+        position: relative;
+        top: 8px;
+    }
+
+    table.dataTable thead > tr > th {
+        padding-right: 0 !important;
+    }
+
+    .client-health-dashboard {
+        padding: 20px 50px;
+    }
+
+    .client-health-header {
+        margin-top: 30px;
+    }
+
+    .client-health-header .icon {
+        font-size: 35px;
+        position: relative;
+        top: 9px;
+        margin-right: 10px;
+        color: #d00000;
+    }
+
+    .client-health-header h2 {
+        font-size: 25px;
+        font-weight: 400;
+        display: inline-block;
+    }
+
+    .client-health-dashboard_table {
+        text-align: center;
+        margin-top: 20px;
+        width: 100% !important;
+    }
+
+    .client-health-dashboard_table th {
+        font-size: 15px;
+        padding-bottom: 10px;
+        text-align: center !important;
+    }
+
+    .client-health-dashboard_table td {
+        padding: 10px 0;
+    }
+
+    .card-status {
+        border: solid 1px #dbdbdb;
+        padding: 20px;
+        box-shadow: 1px 1px 5px #e9e9e9;
+        margin-top: 23px;
+        background-color: #fbfcff;
+        border-radius: 5px;
+    }
+
+    .card-status-details {
+        border: solid 1px #dbdbdb;
+        padding: 20px;
+        box-shadow: 1px 1px 5px #e9e9e9;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        background-color: #fbfcff;
+        border-radius: 5px;
+        word-break: break-all;
+        height: inherit;
+        border-color: grey;
+    }
+
+    .card-status-details-compare {
+        border: solid 1px #dbdbdb;
+        padding: 20px;
+        box-shadow: 1px 1px 5px #e9e9e9;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        background-color: #fbfcff;
+        border-radius: 5px;
+        border-color: grey;
+    }
+
+    .card-status-content {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .card-status-content-number {
+        font-size: 38px;
+        font-weight: 400;
+        display: inline-block;
+        color: #3e3e3e;
+    }
+
+    .card-status-content-number-danger {
+        font-size: 38px;
+        font-weight: 400;
+        display: inline-block;
+        color: #d00000;
+    }
+
+    .card-status-content-text {
+        font-size: 22px;
+        font-weight: 100;
+        display: inline-block;
+        margin-left: 10px;
+        color: black;
+    }
+
+    .card-status-footer {
+        text-align: center !important;
+        border-top: solid 1px #dfdfdf;
+        padding-top: 10px;
+    }
+
+    .workplace-details {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .workplace-details__header {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 30px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .workplace-details__header span {
+        font-size: 16px;
+    }
+
+    .workplace-details__header i {
+        float: right;
+        font-size: 23px;
+        position: relative;
+        top: 11px;
+    }
+
+    .workplace-details__table {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .workplace-details__table th {
+        font-weight: 400;
+        font-size: 15px;
+        width: 50%;
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .workplace-details__table td {
+        font-weight: bold;
+        font-size: 15px;
+        color: #717171;
+        padding-bottom: 20px;
+    }
+}

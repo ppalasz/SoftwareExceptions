@@ -1,0 +1,214 @@
+.modal-footer {  
+   border-top: none; 
+}
+
+.modal-header {  
+  border-bottom: none;
+}
+
+.modal-dialog-big .modal-dialog {  
+  width: 800px;   
+  max-width: 800px;
+}
+
+.modal
+{
+  z-index:1040;
+}
+
+.table tr.grid-row , .table tr.grid-row TD
+{ 
+  height:50px;
+  overflow: hidden;
+  
+}
+
+
+tr.grid-row TD, tr.grid-row TH
+{
+  border-right: 1px solid #dee2e6;
+}
+
+tr.grid-row TH:last-child 
+{
+  text-align: -webkit-center;
+}
+
+tr.grid-row TD:first-child, tr.grid-row TH:first-child
+{
+  border-left: 1px solid #dee2e6;
+}
+
+tr.grid-row
+{
+  position:relative
+}
+
+tr.grid-row:last-child
+{
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tr.grid-row TD:before {
+  content:'';
+  width:100%;
+  height:100%;    
+  position:absolute;
+  left:0;
+  top:0;
+  background:linear-gradient(transparent 150px, white);
+}
+
+.grey-fonts
+{
+  color:lightgray;
+}
+
+.main-div
+{
+  max-width: 90%;
+  margin:auto;
+}
+
+textarea{
+  resize: none
+}
+
+.edit-icon, .delete-icon, .add-icon 
+{
+  width:20px;
+  height:20px;  
+  display:table-cell;
+  padding:2px;
+  background-repeat: no-repeat;
+  background-size: auto;  
+}
+
+.edit-icon img, .delete-icon img, .add-icon img
+{
+  width:20px;
+  height: 20px;
+  margin:2px;
+  opacity: 0.3;
+  transition: width 1s;
+  
+}
+
+.edit-icon img:hover, .delete-icon img:hover, .add-icon img:hover
+{
+  opacity: 1;
+  transition: width 1s;
+}
+
+.sort_desc-icon img, .sort_asc-icon img
+{
+  width:15px;
+  height: 15px; 
+  opacity: 0.3;
+  transition: width 1s;
+  float: right;
+
+}
+
+.sort_desc-icon img:hover, .sort_asc-icon img:hover
+{
+  opacity: 0.6;
+  transition: width 1s;
+}
+
+.sorted img
+{  
+  opacity: 0.8;
+  
+}
+
+
+.pager a{
+  color:grey;
+}
+
+#searchinput {
+  width: 200px;
+}
+#searchclear {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  height: 14px;
+  margin: auto;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.table th, .table td { 
+  vertical-align: middle;
+}
+
+.date-input
+{
+  width:130px;
+}
+
+#CvssScore
+{
+  width:100px;
+}
+
+.date-picker-div
+{
+  position: relative;  
+  width:135px;
+  margin:0px;
+}
+
+.date-picker-label
+{
+  position: absolute;
+  right:10px;
+  top:7px;
+  margin-left:5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.required {
+  color: red!important;
+  margin-left:5px;
+}
+
+::placeholder, div[class*="placeholder"] {
+  color: lightgray!important;
+}
+
+
+.select-wrapper-container{
+  position: relative;  
+  margin-top: -20px;
+  height: 100%;
+}
+
+.select-wrapper
+{
+  position: absolute;
+}
+
+.input-required{
+  position: absolute;
+  border: none!important;
+  color: transparent;
+  background-color: transparent!important; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  z-index: 0;
+  outline: none;
+  margin-top:35px;
+}
+
+#CustomerId, #SoftwareVersionId
+{
+  padding:0;
+}

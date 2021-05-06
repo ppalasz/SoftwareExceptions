@@ -1,0 +1,53 @@
+﻿.label {
+    @include border-radius(0);
+}
+
+.label-primary {
+    background-color: #1f91f3;
+}
+
+.label-success {
+    background-color: #2b982b;
+}
+
+.label-info {
+    background-color: #00b0e4;
+}
+
+.label-warning {
+    background-color: #ff9600;
+}
+
+.label-danger {
+    background-color: #fb483a;
+}
+
+input[type="checkbox"][readonly] {
+	pointer-events: none;
+}
+
+input[type=checkbox].disabled:checked + label span {
+	background-color: lightgreen !important;
+	border: 2px solid lightgreen !important;
+	cursor: default;
+}
+
+input[type=checkbox].disabled:not(:checked) + label span {
+	background-color: #eeeeee !important;
+	border: 2px solid lightgrey !important;
+	cursor: default;
+}
+
+input[type=checkbox]:disabled:checked + label span {
+	background-color: lightgreen !important;
+	border: 2px solid lightgreen !important;
+	cursor: default;
+}
+
+input[type=checkbox]:disabled:not(:checked) + label span {
+	background-color: #eeeeee !important;
+	border: 2px solid lightgrey !important;
+	cursor: default;
+}
+
+

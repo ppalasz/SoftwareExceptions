@@ -1,0 +1,108 @@
+﻿.vdi-deployment {
+	
+	.dataTables_scrollHead,
+	.dataTables_scrollHeadInner,
+	.dataTables_scrollHeadInner .table {
+		width: 100% !important;
+	}
+
+
+	.switch {
+		position: relative;
+		z-index: 10;
+		line-height: 60px;
+	}
+
+	#table-vdi-images_wrapper .dataTables_scrollBody {
+		overflow-x: hidden !important;
+	}
+
+	#table-vdi-images_wrapper .dataTables_scrollHead TH {
+		white-space: normal;
+	}
+}
+
+
+#table-vdi-images_wrapper { 
+	
+	.dataTables_scrollBody {
+		height: auto !important;
+	}
+
+	#table-vdi-images_paginate {
+		display: none !important;
+	}
+
+}
+
+#vdi-deployment-date-for-multiple-images-modal {
+
+	.date {
+		width: 200px;
+		text-align: center;
+	}
+
+	.date INPUT {
+		border: 1px solid #cccccc;
+		margin: 5px;
+		padding: 5px;
+		width: 110px;
+	}
+
+	.innerTableSelectedImages {
+		margin: auto;
+	}
+
+	.innerTableSelectedImages TD {
+		padding: 4px;
+		border-bottom: 1px solid #eeeeee;
+		min-height: 35px;
+		text-align: left;
+	}
+
+	.innerTableSelectedImages TH, .chosen-container LI, .chosen-container SPAN {
+		text-align: left;
+	}
+
+	.bootstrap-datetimepicker-widget {
+		margin-top: 0px !important;
+		margin-right: 170px !important;
+	}
+
+	.modal-body {
+		max-height: none;
+		overflow-y: visible;
+	}
+
+	.input-group-addon {
+		display: inline;
+	}
+
+	.row {
+		margin-bottom: 20px;
+		text-align: -webkit-center;
+	}
+
+	.row td {
+	}
+
+
+	.input-group {
+		margin-bottom: auto;
+		text-align: -webkit-center;
+	}
+
+	#selectedImagesTable {
+		text-align: center
+	}
+}
+
+	#selectedImagesTable tbody, #selectedImagesTable thead tr {
+		display: block;
+	}
+
+	#selectedImagesTable tbody {
+		max-height: 190px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}

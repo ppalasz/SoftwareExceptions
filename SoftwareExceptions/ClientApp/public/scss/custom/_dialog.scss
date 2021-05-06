@@ -1,0 +1,22 @@
+﻿.modal.in .modal-dialog.modal-dialog-centered {
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+}
+
+.modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.ui-dialog {
+    z-index: 9999 !important;
+}
+
+#dialog-message {
+    display: none;
+}
